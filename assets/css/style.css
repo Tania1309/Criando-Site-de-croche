@@ -1,0 +1,138 @@
+body {
+    font-family: "Comic Sans MS", cursive !important;
+}
+
+#carouselExampleFade {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#imagem {
+    margin-top: 10px;
+    height: 400px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.pink:hover {
+    color: palevioletred !important;
+}
+
+h2 {
+    padding-top: 50px;
+    font-family: "Comic Sans MS", cursive;
+    color: palevioletred !important;
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card-croche {
+    width: 390px;
+    padding: 25px;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-left: 6px solid #f7c8d0;
+    border-right: 6px solid #f7c8d0;
+    margin-top: 100px;
+
+}
+
+.card-croche p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #444;
+    text-align: justify;
+}
+
+.card-croche img {
+    max-width: 50px;
+    border-radius: 10px;
+}
+
+#card-azul {
+    border-left: 6px solid #0dcaf0;
+    border-right: 6px solid #0dcaf0;
+    margin-left: 310px;
+    width: 600px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.tabela-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding: 20px;
+}
+
+.tabela-croche {
+    width: 100%;
+    max-width: 850px;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.tabela-croche th {
+    background: #f7c8d0;
+    color: #444;
+    padding: 12px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.tabela-croche td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.tabela-croche tr:hover {
+    background: #fff5f6;
+}
+
+.tabela-croche img {
+    width: 90px;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+.tabela-croche img:hover {
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 700px) {
+
+    .tabela-croche th,
+    .tabela-croche td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .tabela-croche img {
+        width: 70px;
+    }
+
+    .card-croche {
+        padding: 20px;
+    }
+
+    .card-croche h2 {
+        font-size: 22px;
+    }
+
+    .card-croche p {
+        font-size: 15px;
+    }
+}
