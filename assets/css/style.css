@@ -1,5 +1,15 @@
+html,
 body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
     font-family: "Comic Sans MS", cursive !important;
+}
+
+
+footer {
+    margin-top: 10%;
+
 }
 
 #carouselExampleFade {
@@ -240,12 +250,12 @@ h3 {
     max-height: 60px;
 }
 
-@media (max-width: 700px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 
     .tabela-croche th,
     .tabela-croche td {
-        font-size: 14px;
-        padding: 8px;
+        font-size: 20px;
+        padding: 20px;
     }
 
     .tabela-croche img {
@@ -263,5 +273,31 @@ h3 {
     .card-croche p {
         font-size: 15px;
     }
-    
+
+    h2 {
+        padding-top: 90px !important;
+        font-size: 40px !important;
+    }
+
+    h3 {
+        font-size: 25px !important;
+    }
+
+    #baixo1 {
+        margin-top: 20%;
+    }
+
+    #baixo {
+        margin-top: 22%;
+    }
+
+    #formulario {
+        width: 500px;
+    }
+
+    #meio {
+        min-height: 500px;
+        align-items: center;
+    }
+
 }
